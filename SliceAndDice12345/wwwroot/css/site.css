@@ -62,3 +62,93 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.backGroundUp {
+    position: absolute;
+    width: 1920px;
+    height: 328px;
+    left: 0px;
+    top: 0px;
+    background: #FFC61B;
+}
+
+.backGroundDown {
+    position: absolute;
+    width: 1920px;
+    height: 752px;
+    left: 0px;
+    top: 328px;
+    background-image: url("Images/background.png");
+}
+
+.inputAuthoRectangle {
+    position: absolute;
+    width: 426px;
+    height: 93px;
+    left: 40%;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+    .inputAuthoRectangle::placeholder {
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 55px;
+        color: rgba(0, 0, 0, 0.56);
+    }
+
+/*@font-face{
+    font-family: 'Barlow';
+    src: local('Barlow'),
+        url('Fonts/Barlow-SemiBold.ttf');
+}*/
+
+.logoImage {
+    position: absolute;
+    width: 294px;
+    height: 292px;
+    left: 813px;
+    top: 0px;
+    background: url("Images/logoImage.png")
+}
+
+.btnAuthoRectangle {
+    position: absolute;
+    width: 16%;
+    height: 93px;
+    left: 43%;
+    top: 50%;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.btnRegRectangle {
+    position: absolute;
+    width: 25%;
+    height: 93px;
+    left: 38.5%;
+    top: 70%;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.hyperLinkReg {
+    position: absolute;
+    width: 377px;
+    height: 40px;
+    left: 45%;
+    top: 600px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 47px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.67);
+}
