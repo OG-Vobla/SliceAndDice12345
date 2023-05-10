@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliceAndDice12345", "SliceAndDice12345\SliceAndDice12345.csproj", "{CF720997-8DE6-4329-A60E-24E7853ED882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF720997-8DE6-4329-A60E-24E7853ED882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF720997-8DE6-4329-A60E-24E7853ED882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF720997-8DE6-4329-A60E-24E7853ED882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF720997-8DE6-4329-A60E-24E7853ED882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F43FE05-D45C-438C-94D3-5B5F39C9E205}
+	EndGlobalSection
+EndGlobal
