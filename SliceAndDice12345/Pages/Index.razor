@@ -1,14 +1,25 @@
-﻿@page "/registration"
+﻿@page "/"
+
+@inject NavigationManager nav;
 
 <div class="backGroundUp">
     <div class="logoImage"></div>
 </div>
 
 <div class="backGroundDown">
-    <input class="inputAuthoRectangle fw-bold" style="font-size:40px; top: 10%"  placeholder="Логин" />
-    <input class="inputAuthoRectangle fw-bold" style="font-size:40px; top: 30%" placeholder="Пароль" />
-    <input class="inputAuthoRectangle fw-bold" style="font-size:40px; top: 50%" placeholder="Повтор пароля" />
-    <button class="btnRegRectangle fw-bold" style="font-size:40px;">Зарегистрироваться</button>
-    <a class="hyperLinkReg" style="top: 90%" href="/">Есть аккаунт?</a>
+    <div class="items">
+        <input class="inputAuthoRectangle" placeholder="Логин" />
+        <input class="inputAuthoRectangle" placeholder="Пароль" />
+        <button class="btnAuth" @onclick="AuthGo">Войти</button>
+        <a class="hyperLinkReg" href="/registration">Нет аккаунт?</a>
+    </div>
 </div>
   
+
+@code {
+
+    private void AuthGo()
+    {
+        nav.NavigateTo("/menu");
+    }
+}
